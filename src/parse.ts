@@ -1,3 +1,5 @@
+/* tslint:disable no-console */
+
 import fs = require('graceful-fs');
 import xml2js = require('xml2js');
 
@@ -6,14 +8,14 @@ interface IParsedDrug {
   name: [String];
   description: [String];
   indication: [String];
-  'drug-interactions': [IInteractionContainer]
+  'drug-interactions': [IInteractionContainer];
 }
 
 interface IInteractionContainer {
-  'drug-interaction': [DrugInteraction];
+  'drug-interaction': [IDrugInteraction];
 }
 
-interface DrugInteraction {
+interface IDrugInteraction {
   'drugbank-id': [String];
   description: [String];
   name: [String];
@@ -28,13 +30,13 @@ interface ICyElement {
     target?: String;
     name?: String;
     indication?: String;
-  }
+  };
 }
 
 const parser = new xml2js.Parser({
   trim: true,
-  normalizeTags: true,
   normalize: true,
+  normalizeTags: true,
   ignoreAttrs: true,
   mergeAttrs: true,
   explicitArray: true,
@@ -56,7 +58,9 @@ fs.readdir(splitFolder, (dirErr, files) => {
         } else if (index === fileArray.length - 1) {
           fs.writeFile(`${splitFolder}/../elements-small.json`, JSON.stringify(cyElements, null, 2));
         } else {
-          index % 100 === 0 && console.log(index);
+          if (index % 100 === 0) {
+            console.log(index);
+          }
           parser.parseString(fileData, (parseErr: Error, parsedDrug: IParsedDrug) => {
             if (parseErr) {
               console.log(parseErr);

@@ -2,5 +2,12 @@
     "extends": [
         "tslint:latest",
         "tslint-react"
-    ]
+    ],
+    "rules": {
+        "quotemark": [
+            "single",
+            "jsx-double"
+        ],
+        "object-literal-sort-keys": false
+    }
 }
