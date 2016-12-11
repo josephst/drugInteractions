@@ -59,5 +59,8 @@ jspm_packages
 .yarn-integrity
 
 ### Custom ###
-*/**/full-database.xml
+data/full-database.xml
+data/elements.json
+data/sample
+data/split
 dist/

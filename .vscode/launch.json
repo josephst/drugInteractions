@@ -8,11 +8,9 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Program",
-      "program": "${workspaceRoot}\\data\\parse.js",
+      "program": "${workspaceRoot}\\dist\\parse.js",
       "cwd": "${workspaceRoot}",
-      "args": [
-        "--max-old-space-size=5000"
-      ]
+      "sourceMaps": true
     },
     {
       "type": "node",
