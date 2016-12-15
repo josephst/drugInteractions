@@ -4,13 +4,12 @@
   "description": "Drug Interaction graph with Cytoscape.js and React",
   "main": "dist/bundle.js",
   "scripts": {
-    "start": "webpack-dev-server -d",
+    "start": "webpack-dev-server -d --inline",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Joseph Stahl",
   "license": "MIT",
   "dependencies": {
-    "@types/react-router": "^2.0.41",
     "graceful-fs": "^4.1.11",
     "react": "^15.4.1",
     "react-dom": "^15.4.1",
@@ -21,13 +20,15 @@
     "@types/node": "^6.0.52",
     "@types/react": "^0.14.54",
     "@types/react-dom": "^0.14.19",
+    "@types/react-router": "^2.0.41",
     "@types/xml2js": "0.0.32",
     "awesome-typescript-loader": "^3.0.0-beta.9",
     "source-map-loader": "^0.1.5",
     "tslint": "^4.0.2",
+    "tslint-microsoft-contrib": "^4.0.0",
     "tslint-react": "^2.0.0",
     "typescript": "^2.1.4",
-    "webpack": "^1.14.0",
+    "webpack": "beta",
     "webpack-dev-server": "^1.16.2",
     "xml2js": "^0.4.17"
   }

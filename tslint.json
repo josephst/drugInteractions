@@ -5,9 +5,17 @@
     ],
     "rules": {
         "quotemark": [
+            true,
             "single",
             "jsx-double"
         ],
         "object-literal-sort-keys": false
+    },
+    "jsRules": {
+        "quotemark": [
+            true,
+            "single",
+            "jsx-double"
+        ]
     }
 }
