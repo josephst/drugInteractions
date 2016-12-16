@@ -596,6 +596,10 @@ crypto-browserify@^3.11.0:
     public-encrypt "^4.0.0"
     randombytes "^2.0.0"
 
+cytoscape@^2.7.13:
+  version "2.7.13"
+  resolved "https://registry.yarnpkg.com/cytoscape/-/cytoscape-2.7.13.tgz#fa6a6c38e59e204050c04e3c757e95b217e71cd2"
+
 dashdash@^1.12.0:
   version "1.14.1"
   resolved "https://registry.yarnpkg.com/dashdash/-/dashdash-1.14.1.tgz#853cfa0f7cbe2fed5de20326b8dd581035f6e2f0"

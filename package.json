@@ -4,12 +4,13 @@
   "description": "Drug Interaction graph with Cytoscape.js and React",
   "main": "dist/bundle.js",
   "scripts": {
-    "start": "webpack-dev-server -d --inline",
+    "start": "webpack-dev-server --debug --inline",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Joseph Stahl",
   "license": "MIT",
   "dependencies": {
+    "cytoscape": "^2.7.13",
     "graceful-fs": "^4.1.11",
     "react": "^15.4.1",
     "react-dom": "^15.4.1",
