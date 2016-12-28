@@ -32,7 +32,7 @@ interface INode {
 }
 
 interface IEdge {
-  group: 'edges',
+  group: 'edges';
   data: {
     id: string,
     source: string,
