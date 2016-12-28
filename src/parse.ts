@@ -21,16 +21,25 @@ interface IDrugInteraction {
   name: [String];
 }
 
-interface ICyElement {
-  group?: String;
+interface INode {
+  group: 'nodes';
   data: {
-    id: String;
-    description?: String;
-    source?: String;
-    target?: String;
-    name?: String;
-    indication?: String;
+    id: string,
+    description?: string,
+    indication?: string,
+    name?: string,
   };
+}
+
+interface IEdge {
+  group: 'edges',
+  data: {
+    id: string,
+    source: string,
+    target: string,
+    description?: string,
+    name?: string,
+  }
 }
 
 const parser = new xml2js.Parser({
@@ -50,13 +59,15 @@ fs.readdir(splitFolder, (dirErr, files) => {
   if (dirErr) {
     console.log(dirErr);
   } else {
-    const cyElements: ICyElement[] = [];
+    const cyNodes: INode[] = [];
+    const cyEdges: IEdge[] = [];
     files.forEach((file, index, fileArray) => {
       fs.readFile(`${splitFolder}/${file}`, (fileErr, fileData) => {
         if (fileErr) {
           console.log(fileErr);
         } else if (index === fileArray.length - 1) {
-          fs.writeFile(`${splitFolder}/../elements-small.json`, JSON.stringify(cyElements, null, 2));
+          fs.writeFile(`${splitFolder}/../nodes-small.json`, JSON.stringify(cyNodes, null, 2));
+          fs.writeFile(`${splitFolder}/../edges-small.json`, JSON.stringify(cyEdges, null, 2));
         } else {
           if (index % 100 === 0) {
             console.log(index);
@@ -67,7 +78,7 @@ fs.readdir(splitFolder, (dirErr, files) => {
             } else {
               const id = parsedDrug['drugbank-id'][0];
               const interactions = parsedDrug['drug-interactions'][0]['drug-interaction'];
-              cyElements.push({
+              cyNodes.push(<INode> {
                 group: 'nodes',
                 data: {
                   id,
@@ -78,7 +89,7 @@ fs.readdir(splitFolder, (dirErr, files) => {
               });
               if (interactions && interactions.length > 0) {
                 interactions.forEach((interaction) => {
-                  cyElements.push({
+                  cyEdges.push(<IEdge> {
                     group: 'edges',
                     data: {
                       id: `${id}-${interaction['drugbank-id'][0]}`,
