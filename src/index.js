@@ -2,6 +2,7 @@
 
 import * as axios from 'axios';
 import cytoscape from 'cytoscape';
+import css from './css/main.css';
 
 const graph = cytoscape({
   container: document.getElementById('cy'),
