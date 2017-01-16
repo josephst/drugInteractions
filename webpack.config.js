@@ -1,29 +1,33 @@
 const path = require('path');
 
 module.exports = {
-    entry: './src/index.ts',
-    output: {
-        filename: 'bundle.js',
-        path: path.join(__dirname, 'dist'),
-        publicPath: '/dist/',
-    },
+  entry: './src/index.js',
+  output: {
+    filename: 'bundle.js',
+    path: path.join(__dirname, 'public', 'dist'),
+    publicPath: '/dist/',
+  },
 
-    // Enable sourcemaps for debugging webpack's output.
-    devtool: 'source-map',
+  // Enable sourcemaps for debugging webpack's output.
+  devtool: 'source-map',
 
-    resolve: {
-        // Add '.ts' and '.tsx' as resolvable extensions.
-        extensions: ['.webpack.js', '.web.js', '.ts', '.tsx', '.js'],
-    },
+  resolve: {
+    extensions: ['.webpack.js', '.web.js', '.js'],
+  },
 
-    module: {
-        rules: [
-            // All files with a '.ts' or '.tsx' extension will be handled by 'awesome-typescript-loader'.
-            { test: /\.tsx?$/, loader: 'awesome-typescript-loader' },
+  module: {
+    rules: [
             // All output '.js' files will have any sourcemaps re-processed by 'source-map-loader'.
-            { test: /\.js$/, enforce: 'pre', loader: 'source-map-loader' },
-        ],
-    },
+      {
+        test: /\.js$/,
+        exclude: /(node_modules)/,
+        loader: 'babel-loader',
+        options: {
+          presets: ['es2015'],
+        },
+      },
+    ],
+  },
 
     // When importing a module whose path matches one of the following, just
     // assume a corresponding global variable exists and use that instead.
@@ -34,8 +38,9 @@ module.exports = {
     //     'react-dom': 'ReactDOM',
     // },
 
-    devServer: {
-        inline: true,
-        publicPath: '/dist/',
-    },
+  devServer: {
+    inline: true,
+    publicPath: '/dist/',
+    contentBase: path.join(__dirname, 'public'),
+  },
 };

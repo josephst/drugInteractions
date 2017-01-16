@@ -1,0 +1,893 @@
+[
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00001",
+      "description": "Lepirudin is identical to natural hirudin except for substitution of leucine for isoleucine at the N-terminal end of the molecule and the absence of a sulfate group on the tyrosine at position 63. It is produced via yeast cells. Bayer ceased the production of lepirudin (Refludan) effective May 31, 2012.",
+      "indication": "For the treatment of heparin-induced thrombocytopenia",
+      "name": "Lepirudin"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00002",
+      "description": "Cetuximab is an epidermal growth factor receptor binding FAB. Cetuximab is composed of the Fv (variable; antigen-binding) regions of the 225 murine EGFr monoclonal antibody specific for the N-terminal portion of human EGFr with human IgG1 heavy and kappa light chain constant (framework) regions. Cetuximab is marketed under the brand Erbitux® by Eli Lilly and Company. In the United States, a regimen of cetuximab costs approximately $30,790 for an eight-week course.",
+      "indication": "Cetuximab, used in combination with irinotecan, is indicated for the treatment of EGFR-expressing, metastatic colorectal carcinoma in patients who are refractory to irinotecan-based chemotherapy. Cetuximab administered as a single agent is indicated for the treatment of EGFR-expressing, metastatic colorectal carcinoma in patients who are intolerant to irinotecan-based chemotherapy.",
+      "name": "Cetuximab"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00003",
+      "description": "Dornase alfa is a biosynthetic form of human deoxyribunuclease I (DNase I) enzyme. It is produced in genetically modified Chinese hamster ovary (CHO) cells using recombinant DNA technology. The 260-amino acid sequence of dornase alfa is identical to the endogenous human enzyme. Dornase alfa cleaves extracellular DNA to 5´-phosphodinucleotide and 5´-phosphooligonucleotide end products without affecting intracellular DNA. In individuals with cystic fibrosis, extracellular DNA, which is an extremely viscous anion, is released by degenerating leukocytes that accumulate during inflammatory responses to infections. Enzymatic breakdown of this extracellular DNA appears to reduce sputum viscosity and viscoelasticity.",
+      "indication": "Used as adjunct therapy in the treatment of cystic fibrosis.",
+      "name": "Dornase alfa"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00007",
+      "description": "Leuprolide belongs to the general class of drugs known as hormones or hormone antagonists. It is a synthetic 9 residue peptide analog of gonadotropin releasing hormone. Leuprolide is used to treat advanced prostate cancer. It is also used to treat uterine fibroids and endometriosis. Leuprolide is also under investigation for possible use in the treatment of mild to moderate Alzheimer's disease.",
+      "indication": "For treatment of prostate cancer, endometriosis, uterine fibroids and premature puberty",
+      "name": "Leuprolide"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00004",
+      "description": "A recombinant DNA-derived cytotoxic protein composed of the amino acid sequences for diphtheria toxin fragments A and B (Met 1-Thr 387)-His followed by the sequences for interleukin-2 (IL-2; Ala 1-Thr 133). It is produced in an E. coli expression system.",
+      "indication": "For treatment of cutaneous T-cell lymphoma",
+      "name": "Denileukin diftitox"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00005",
+      "description": "Dimeric fusion protein consisting of the extracellular ligand-binding portion of the human 75 kilodalton (p75) tumor necrosis factor receptor (TNFR) linked to the Fc portion of human IgG1. The Fc component of etanercept contains the CH2 domain, the CH3 domain and hinge region, but not the CH1 domain of IgG1. Etanercept is produced by recombinant DNA technology in a Chinese hamster ovary (CHO) mammalian cell expression system. It consists of 934 amino acids",
+      "indication": "For treatment of severe active rheumatoid arthritis in adults, severe juvenile idiopathic arthritis, ankylosing spondylitis, and severe plaque psoriasis.",
+      "name": "Etanercept"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00006",
+      "description": "Bivalirudin is a synthetic 20 residue peptide (thrombin inhibitor) which reversibly inhibits thrombin. Once bound to the active site, thrombin cannot activate fibrinogen into fibrin, the crucial step in the formation of thrombus. It is administered intravenously. Because it can cause blood stagnation, it is important to monitor changes in hematocrit, activated partial thromboplastin time, international normalized ratio and blood pressure.",
+      "indication": "For treatment of heparin-induced thrombocytopenia and for the prevention of thrombosis. Bivalirudin is indicated for use in patients undergoing percutaneous coronary intervention (PCI), in patients at moderate to high risk acute coronary syndromes due to unstable angina or non-ST segment elevation in whom a PCI is planned.",
+      "name": "Bivalirudin"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00008",
+      "description": "Human interferon 2a, is a covalent conjugate of recombinant alfa-2a interferon with a single branched bis-monomethoxy polyethylene glycol (PEG) chain. The PEG moiety is linked at a single site to the interferon alfa moiety via a stable amide bond to lysine. Peginterferon alfa-2a has an approximate molecular weight of 60,000 daltons. Interferon alfa-2a is produced using recombinant DNA technology in which a cloned human leukocyte interferon gene is inserted into and expressed in Escherichia coli. The resultant protein is 165 amino acids. The PEG strand protects the molecule in vivo from proteolytic breakdown, substantially increases its in vivo half-life, and reduces immunogenicity by wrapping around and physically hindering access to the protein portion of the molecule.",
+      "indication": "For treatment of hairy cell leukemia, malignant melanoma, and AIDS-related Kaposi's sarcoma.",
+      "name": "Peginterferon alfa-2a"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00009",
+      "description": "Human tissue plasminogen activator, purified, glycosylated, 527 residues purified from CHO cells",
+      "indication": "For management of acute myocardial infarction, acute ischemic strok and for lysis of acute pulmonary emboli",
+      "name": "Alteplase"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00010",
+      "description": "Sermorelin acetate is the acetate salt of an amidated synthetic 29-amino acid peptide (GRF 1-29 NH 2 ) that corresponds to the amino-terminal segment of the naturally occurring human growth hormone-releasing hormone (GHRH or GRF) consisting of 44 amino acid residues",
+      "indication": "For the treatment of dwarfism, prevention of HIV-induced weight loss",
+      "name": "Sermorelin"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00012",
+      "description": "Human erythropoietin with 2 aa substitutions to enhance glycosylation (5 N-linked chains), 165 residues (MW=37 kD). Produced in Chinese hamster ovary (CHO) cells by recombinant DNA technology.",
+      "indication": "For the treatment of anemia (from renal transplants or certain HIV treatment)",
+      "name": "Darbepoetin alfa"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00011",
+      "description": "Purified, natural (n is for natural) glycosylated human interferon alpha proteins 166 residues",
+      "indication": "For treatment of venereal or genital warts caused by the Human Papiloma Virus",
+      "name": "Interferon alfa-n1"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00013",
+      "description": "Low molecular weight form of human urokinase, that consists of an A chain of 2,000 daltons linked by a sulfhydryl bond to a B chain of 30,400 daltons. Recombinant urokinase plasminogen activator",
+      "indication": "Urokinase can be used for the treatment of pulminary embolism, coronary artery thrombosis, IV catheter clearance, and venous and arterial blood clots.",
+      "name": "Urokinase"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00014",
+      "description": "Goserelin is a synthetic hormone. In men, it stops the production of the hormone testosterone, which may stimulate the growth of cancer cells. In women, goserelin decreases the production of the hormone estradiol (which may stimulate the growth of cancer cells) to levels similar to a postmenopausal state. When the medication is stopped, hormone levels return to normal.",
+      "indication": "Used to treat hormone-sensitive cancers of the breast (in pre- and peri- menopausal women) and prostate, and some benign gynaecological disorders (endometriosis, uterine fibroids and endometrial thinning). In addition, goserelin is used in assisted reproduction and in the treatment of precocious puberty.",
+      "name": "Goserelin"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00015",
+      "description": "Human tissue plasminogen activator, purified, glycosylated, 355 residues purified from CHO cells. Retavase is considered a \"third-generation\" thrombolytic agent, genetically engineered to retain and delete certain portions of human tPA. Retavase is a deletion mutein of human tPA formed by deleting various amino acids present in endogenous human tPA. Retavase contains 355 of the 527 amino acids of native human tPA (amino acids 1-3 and 176-527), and retains the activity-related kringle-2 and serine protease domains of human tPA. Three domains are deleted from retavase - kringle-1, finger, and epidermal growth factor (EGF).",
+      "indication": "For lysis of acute pulmonary emboli, intracoronary emboli and management of myocardial infarction",
+      "name": "Reteplase"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00016",
+      "description": "Erythropoietin (as Epoetin alfa) is a 165-amino acid erythropoiesis-stimulating glycoprotein manufactured by recombinant DNA technology. It has a molecular weight of approximately 30,400 daltons and is produced by mammalian cells into which the human erythropoietin gene has been introduced. The product contains the identical amino acid sequence of isolated natural erythropoietin.",
+      "indication": "For treatment of anemia (from renal transplants or certain HIV treatment)",
+      "name": "Erythropoietin"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00018",
+      "description": "Purified, natural (n is for natural) human interferon alpha proteins (consists of 3 forms or polymorphisms including 2a, 2b and 2c). 166 residues, some are glycosylated (MW range from 16 kD to 27 kD).",
+      "indication": "For the intralesional treatment of refractory or recurring external condylomata acuminata.",
+      "name": "Interferon alfa-n3"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00019",
+      "description": "PEGylated (at N terminus) form of human G-CSF (Granulocyte colony stimulating factor), 175 residues, produced from E. coli via bacterial fermentation.",
+      "indication": "Increases leukocyte production, for treatment in non-myeloid cancer, neutropenia and bone marrow transplant",
+      "name": "Pegfilgrastim"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00020",
+      "description": "Sargramostim is a human recombinant granulocyte macrophage colony-stimulating factor (GM-CSF) expressed in yeast. It is a glycoprotein that is 127 residues. Substitution of Leu23 leads to a difference from native protein.",
+      "indication": "For the treatment of cancer and bone marrow transplant",
+      "name": "Sargramostim"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00017",
+      "description": "Synthetic peptide, 32 residues long formulated as a nasal spray.",
+      "indication": "Used in the treatment of symptomatic Paget's disease for patients unresponsive to alternate treatments or intolerant to such treatments. In addition, it is used in emergency situations when serum calcium levels must be decreased quickly until the underlying condition is identified. It can also be added to existing therapeutic regimens for hypercalcemia such as intravenous fluids and furosemide, oral phosphate or corticosteroids, or other agents. Calcitonin can be used in patients with azotemia and cases where intravenous fluids would be contraindicated due to limited cardiac reserves. Also for the treatment of post-menopausal osteoporosis in women more than 5 years post-menopause.",
+      "name": "Salmon Calcitonin"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00021",
+      "description": "This drug is the synthetic form of natural secretin. It is prepared using solid phase peptide synthesis. Secretin is a peptide hormone produced in the S cells of the duodenum. Its main effect is to regulate the pH of the small intestine’s contents through the control of gastric acid secretion and buffering with bicarbonate. It was the first hormone to be discovered.",
+      "indication": "For diagnosis of pancreatic exocrine dysfunction and gastrinoma",
+      "name": "Secretin"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00022",
+      "description": "Peginterferon alfa-2b is a covalent conjugate of recombinant alfa-2b interferon with monomethoxy polyethylene glycol (PEG). The average molecular weight of the PEG portion of the molecule is 12,000 daltons. The average molecular weight of the PEG-Intron molecule is approximately 31,000 daltons. The specific activity of peginterferon alfa-2b is approximately 0.7 x 108 IU/mg protein. Interferon alfa-2b is a water-soluble protein with a molecular weight of 19,271 daltons produced by recombinant DNA techniques. It is obtained from the bacterial fermentation of a strain of <i>Escherichia coli</i> bearing a genetically engineered plasmid containing an interferon gene from human leukocytes. The PEG strand protects the molecule in vivo from proteolytic breakdown, substantially increases its in vivo half-life, and reduces immunogenicity by wrapping around and physically hindering access to the protein portion of the molecule.",
+      "indication": "For the treatment of chronic hepatitis C in patients not previously treated with interferon alpha who have compensated liver disease and are at least 18 years of age.",
+      "name": "Peginterferon alfa-2b"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00023",
+      "description": "L-asparagine amidohydrolase from E. coli",
+      "indication": "For treatment of acute lympocytic leukemia and non-Hodgkins lymphoma",
+      "name": "Asparaginase"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00024",
+      "description": "Thyrotropin alfa is a recombinant form of thyroid stimulating hormone used in performing certain tests in patients who have or have had thyroid cancer. It is also used along with a radioactive agent to destroy remaining thyroid tissue in certain patients who have had their thyroid gland removed because of thyroid cancer. It is a heterodimeric glycoprotein comprised of two non-covalently linked subunits, an alpha subunit of 92 amino acid residues containing two N-linked glycosylation sites and a beta subunit of 112 residues containing one N-linked glycosylation site. The alpha subunit is nearly identical to that of human chorionic gonadotropin (hCG), luteinizing hormone (LH), and follicle-stimulating hormone (FSH). The alpha subunit is thought to be the effector region responsible for stimulation of adenylate cyclase (involved the generation of cAMP). The beta subunit (TSHB) is unique to TSH, and therefore determines its receptor specificity. The amino acid sequence of thyrotropin alfa is identical to that of human pituitary thyroid stimulating hormone.",
+      "indication": "For detection of residueal or recurrent thyroid cancer",
+      "name": "Thyrotropin Alfa"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00027",
+      "description": "Gramcidin D is a heterogeneous mixture of three antibiotic compounds, gramicidins A, B and C, making up 80%, 6%, and 14% respectively all of which are obtained from the soil bacterial species Bacillus brevis and called collectively gramicidin D. Gramcidins are 15 residue peptides with alternating D and L amino acids. The peptides assemble inside of the hydrophobic interior of the cellular lipid bilayer to form a β-helix. The helix itself is not long enough to span the membrane but it dimerizes to form the elongated channel needed to span the whole membrane. Gramicidin D is used primarily as a topical antibiotic and is one of the three constituents of consumer antibiotic polysporin ophthalmic solution.",
+      "indication": "For treatment of skin lesions, surface wounds and eye infections",
+      "name": "Gramicidin D"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00026",
+      "description": "Anakinra is a recombinant, nonglycosylated human interleukin-1 receptor antagonist (IL-1Ra). The difference between anakinra and the native human IL-1Ra is that anakinra has an extra methionine residue at the amino terminus. It is manufactured by using the E. coli expression system. Anakinra is composed of 153 amino acid residues. FDA approved on November 14, 2001.",
+      "indication": "For the treatment of adult rheumatoid arthritis and treatment of Neonatal-Onset Multisystem Inflammatory Disease (NOMID).",
+      "name": "Anakinra"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00025",
+      "description": "Human recombinant antihemophilic factor (AHF) or Factor VIII, 2332 residues, glycosylated, produced by CHO cells",
+      "indication": "For the treatment of hemophilia A, von Willebrand disease and Factor XIII deficiency.",
+      "name": "Antihemophilic Factor (Recombinant)"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00029",
+      "description": "Human tissue plasminogen activator, purified, glycosylated, 527 residues purified from CHO cells. Eminase is a lyophilized (freeze-dried) formulation of anistreplase, the p-anisoyl derivative of the primary Lys-plasminogen-streptokinase activator complex (a complex of Lys-plasminogen and streptokinase). A p-anisoyl group is chemically conjugated to a complex of bacterial-derived streptokinase and human Plasma-derived Lys-plasminogen proteins.",
+      "indication": "For lysis of acute pulmonary emboli, intracoronary emboli and management of myocardial infarction",
+      "name": "Anistreplase"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00032",
+      "description": "Menotropins contains follicle stimulating hormone (FSH) and luteinizing hormone (LH) purified from the urine of postmenopausal women. It is used as a fertility medication that is injected either subcutaneously or intramuscularly. It is composed of LH with 2 subunits, alpha = 92 residues, beta = 121 residues and FSH with 2 subunits, alpha = 92 residues, beta=111 residues.",
+      "indication": "For the treatment of female infertility",
+      "name": "Menotropins"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00028",
+      "description": "Intravenous immunoglobulin (IVIg) is a mixture of IgG1 and other antibodies derived from healthy human plasma via Cohn fractionation. The purification process includes cold alcohol fractionation, polyethylene glycol precipitation, and ion exchange chromatography. IVIg contains the same distribution of IgG antibody subclasses as is found in the general human population. IgG subclasses are fully represented in the following proportions: 70.3% IgG1, 24.7% IgG2, 3.1% IgG3, and 1.9% IgG4. IVIg is used in the treatment of immunodeficiencies, as well as autoimmune and inflammatory disorders.",
+      "indication": "IVIg is used in the treatment of immunodeficiencies, as well as autoimmune and inflammatory disorders. These indications includes idiopathic thrombocytopenic purpura, Kawasaki disease, hypogammaglobulinemia, B cell chronic lymphocytic leukemia, bone marrow transplant complications, Guillain-Barré syndrome, chronic inflammatory demyelinating polyneuropathy (CIDP), multiple sclerosis, rheumatoid arthritis, myesthenia gravis, Wiskott–Aldrich syndrome and inflammatory skin diseases.",
+      "name": "Immune Globulin Human"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00033",
+      "description": "Human Interferon gamma-1b (140 residues), produced from E. coli. Production of Actimmune is achieved by fermentation of a genetically engineered Escherichia coli bacterium containing the DNA which encodes for the human protein. Purification of the product is achieved by conventional column chromatography. The sequence displayed is a cDNA sequence which codes for human interferon gamma, as described by Gray et. al. and not specifically interferon gamma 1b.",
+      "indication": "Interferon gamma-1b is used for the treatment of Chronic granulomatous disease and Osteopetrosis.",
+      "name": "Interferon gamma-1b"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00031",
+      "description": "Tissue plasminogen activator (tPA). Tenecteplase is a 527 amino acid glycoprotein developed by introducing the following modifications to the complementary DNA (cDNA) for natural human tPA: a substitution of threonine 103 with asparagine, and a substitution of asparagine 117 with glutamine, both within the kringle 1 domain, and a tetra-alanine substitution at amino acids 296-299 in the protease domain.",
+      "indication": "For treatment of myocardial infarction and lysis of intracoronary emboli",
+      "name": "Tenecteplase"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00030",
+      "description": "Insulin human is a 51 residue peptide hormone, composed of two amino acid chains covalently linked by disulfide bonds. The structure is identical to native human insulin. Recombinant insulin is synthesized by recombinant DNA techncology. Inserting the human insulin gene into the Escherichia coli bacteria or Saccharomyces cerevisiae produces insulin for human use. Inhalable insulin is a powdered form of insulin regular, delivered with a nebulizer into the lungs where it is absorbed. Exubera, developed by Inhale Therapeutics (later named Nektar Therapeutics), became the first inhaled insulin product to be marketed in 2006 by Pfizer, but poor sales led Pfizer to withdraw it in 2007. Afrezza, a monomeric inhaled insulin developed by Mannkind, was approved by the FDA in 2014.",
+      "indication": "Indicated as an adjunct to diet and exercise to improve glycemic control in adults and children with type 1 and type 2 diabetes mellitus.",
+      "name": "Insulin Human"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00034",
+      "description": "Interferon a (human leukocyte protein moiety reduced). A type I interferon consisting of 165 amino acid residues with lysine in position 23. This protein is produced by recombinant DNA technology and resembles interferon secreted by leukocytes. It is used extensively as an antiviral or antineoplastic agent. An oral form is being developed by Amarillo Biosciences.",
+      "indication": "For the treatment of chronic hepatitis C, hairy cell leukemia, AIDS-related Kaposi's sarcoma, and chronic myelogenous leukemia. Also for the treatment of oral warts arising from HIV infection.",
+      "name": "Interferon Alfa-2a, Recombinant"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00036",
+      "description": "Recombinant human coagulation Factor VIIa (rFVIIa), intended for promoting hemostasis by activating the extrinsic pathway of the coagulation cascade. NovoSeven is a vitamin K-dependent glycoprotein consisting of 406 amino acid residues. Cloned and expressed in hamster kidney cells, the protein is catalytically active in a two-chain form.",
+      "indication": "For treatment of hemorrhagic complications in hemophilia A and B",
+      "name": "Coagulation factor VIIa Recombinant Human"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00038",
+      "description": "Oprelvekin, the active ingredient in Neumega® is recombinant Interleukin eleven, which is produced in Escherichia coli (E. coli) by recombinant DNA technology. The protein has a molecular mass of approximately 19,000 daltons, and is non-glycosylated. The polypeptide is 177 amino acids in length (the natural IL-11 has 178). This alteration has not resulted in measurable differences in bioactivity either in vitro or in vivo. The primary hematopoietic activity of Neumega® is stimulation of megakaryocytopoiesis and thrombopoiesis. In mice and nonhuman primate studies Neumega® has shown potent thrombopoietic activity in compromised hematopoiesis, including moderately to severely myelosuppressed animals. In these studies, Neumega® improved platelet nadirs and accelerated platelet recoveries compared to controls. In animal studies Oprelvekin also has non-hematopoetic activities. This includes the regulation of intestinal epithelium growth (enhanced healing of gastrointestinal lesions), the inhibition of adipogenesis, the induction of acute phase protein synthesis (e.g., fibrinogen), and inhibition of macrophageal released pro-inflammatory cytokines.",
+      "indication": "Increases reduced platelet levels due to chemotherapy",
+      "name": "Oprelvekin"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00040",
+      "description": "29 residue peptide hormone. Glucagon is synthesized in a special non- pathogenic laboratory strain of Escherichia coli bacteria that has been genetically altered by the addition of the gene for glucagons",
+      "indication": "For treatment of severe hypoglycemia, also used in gastrointestinal imaging",
+      "name": "Glucagon recombinant"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00035",
+      "description": "Desmopressin is a chemical that is similar to Antidiuretic Hormone (ADH) which is found naturally in the body. It increases urine concentration and decreases urine production. Desmopressin is used to prevent and control excessive thirst, urination, and dehydration caused by injury, surgery, and certain medical conditions, allowing you to sleep through the night without awakening to urinate. It is also used to treat specific types of diabetes insipidus and conditions after head injury or pituitary surgery.",
+      "indication": "Oral formulations may be used to manage primary nocturnal enuresis in adults and vasopressin sensitive diabetes insipidus, and for control of temporary polyuria and polydipsia following head trauma or surgery in the pituitary region. Intranasal and parenteral formulations may be used to manage spontaneous or trauma-induced bleeds (e.g. hemarthrosis, intramuscular hematoma, mucosal bleeding) in patients with hemophilia A or von Willebrand's disease Type I. May also be used parenterally to prevent or treat bleeding in patients with uremia.",
+      "name": "Desmopressin"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00039",
+      "description": "Palifermin is a recombinant human keratinocyte growth factor (KGF). It is 140 residues long, and is produced using E. coli.",
+      "indication": "For treatment of oral mucositis associated with chemotherapy and radiation therapy.",
+      "name": "Palifermin"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00043",
+      "description": "A recombinant DNA-derived humanized IgG1k monoclonal antibody that selectively binds to human immunoglobulin E (IgE). Xolair is produced by a Chinese hamster ovary cell suspension culture in a nutrient medium containing the antibiotic gentamicin.",
+      "indication": "For treatment of asthma caused by allergies",
+      "name": "Omalizumab"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00042",
+      "description": "Neurotoxin produced by fermentation of clostridium botulinum type B. The protein exists in noncovalent association with hemagglutinin and nonhemagglutinin proteins as a neurotoxin complex. The neurotoxin complex is recovered from the fermentation process and purified through a series of precipitation and chromatography steps.",
+      "indication": "For the treatment of patients with cervical dystonia to reduce the severity of abnormal head position and neck pain associated with cervical dystonia.",
+      "name": "Botulinum Toxin Type B"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00041",
+      "description": "Aldesleukin, a lymphokine, is produced by recombinant DNA technology using a genetically engineered E. coli strain containing an analog of the human interleukin-2 gene. Genetic engineering techniques were used to modify the human IL-2 gene, and the resulting expression clone encodes a modified human interleukin-2. This recombinant form differs from native interleukin-2 in the following ways: a) Aldesleukin is not glycosylated because it is derived from E. coli; b) the molecule has no N-terminal alanine; the codon for this amino acid was deleted during the genetic engineering procedure; c) the molecule has serine substituted for cysteine at amino acid position 125.",
+      "indication": "For treatment of adults with metastatic renal cell carcinoma.",
+      "name": "Aldesleukin"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00044",
+      "description": "Lutropin alfa is a recombinant human luteinizing hormone produced in yeast with 2 subunits, alpha = 92 residues, beta = 121 residues. It is a heterodimeric glycoprotein. Each monomeric unit is a glycoprotein molecule. In females, an acute rise of LH (\"LH surge\") triggers ovulation and the development of the corpus luteum. In males, it stimulates Leydig cell production of testosterone. Lutropin alfa was the first and only recombinant human form of luteinizing hormone (LH) developed for use in the stimulation of follicular development.",
+      "indication": "For treatment of infertility in women with hypothalamic or pituitary insufficiency (hypogonadotropic hypogonadism) and profound LH deficiency (LH <1.2 international units [IU]/L)",
+      "name": "Lutropin alfa"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00045",
+      "description": "Vaccine against Lyme disease that contains lipoprotein OspA, an outer surface protein of Borrelia burgdorferi sensu stricto ZS7, as expressed by Escherichia coli. Lipoprotein OspA is a single polypeptide chain of 257 amino acids with lipids covalently bonded to the N terminus. It is conjugated with alum (aluminum hydroxide) as an adjuvant.",
+      "indication": "For prophylactic treatment of Lyme Disease",
+      "name": "OspA lipoprotein"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00046",
+      "description": "Insulin lispro is a recombinant human insulin analogue produced in a specialized laboratory strain of Escherischia coli. Plasmid DNA transfected into the bacteria encodes for an analogue of human insulin that has a lysine at residuce B28 and proline at B29; these residues are reversed in endogenous human insulin. Reversal of these amino acid residues produces a rapid-acting insulin analogue. FDA approved on 1996.",
+      "indication": "For the treatment of Type 1 or 2 diabetes mellitus. To be used in conjunction with an intermediate or long-acting insulin except when used in a continuous insulin infusion pump.",
+      "name": "Insulin Lispro"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00048",
+      "description": "Collagenase clostridium histolyticum is an enzyme produced by the bacterium Clostridium histolyticum that dismantles collagen. It is used as a powder-and-solvent injection kit for the treatment of Dupuytren's contracture, a condition where the fingers bend towards the palm and cannot be fully straightened, and Peyronie's disease, a connective tissue disorder involving the growth of fibrous plaques in the soft tissue of the penis. BioSpecifics Technologies developed the preparation, which is manufactured and marketed by Auxilium Pharmaceuticals as Xiaflex in the US and by Sobi as Xiapex in Europe.",
+      "indication": "Used to promote debridement of necrotic tissue in the treatment of severe burns and dermal ulcers including decubitus ulcers.",
+      "name": "Collagenase clostridium histolyticum"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00050",
+      "description": "Cetrorelix is a man-made hormone that blocks the effects of Gonadotropin Releasing Hormone (GnRH). GnRH controls another hormone that is called luteinizing hormone (LH), which is the hormone that starts ovulation during the menstrual cycle. When undergoing hormone treatment sometimes premature ovulation can occur, leading to eggs that are not ready for fertilization to be released. Cetrorelix does not allow the premature release of these eggs to occur.",
+      "indication": "For the inhibition of premature LH surges in women undergoing controlled ovarian stimulation",
+      "name": "Cetrorelix"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00049",
+      "description": "Rasburicase is a recombinant urate-oxidase enzyme produced by a genetically modified <i>Saccharomyces cerevisiae</i> strain. The cDNA coding for rasburicase was cloned from a strain of <i>Aspergillus flavus</i>.",
+      "indication": "For treatment of hyperuricemia, reduces elevated plasma uric acid levels (from chemotherapy)",
+      "name": "Rasburicase"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00047",
+      "description": "Insulin glargine is produced by recombinant DNA technology using a non-pathogenic laboratory strain of Escherichia coli (K12) as the production organism. It is an analogue of human insulin made by replacing the asparagine residue at position A21 of the A-chain with glycine and adding two arginines to the C-terminus (positions B31 and 32) of the B-chain. The resulting protein is soluble at pH 4 and forms microprecipitates at physiological pH 7.4. Small amounts of insulin glargine are slowly released from microprecipitates giving the drug a long duration of action (up to 24 hours) and no pronounced peak concentration.",
+      "indication": "For the treatment of Type 1 or 2 diabetes mellitus in patients over 17 years old who require a long-acting (basal) insulin for the control of hyperglycemia. May be used in pediatric patients with Type 1 diabetes mellitus who require a long-acting (basal) insulin for glycemic control.",
+      "name": "Insulin Glargine"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00053",
+      "description": "Human Beta-glucocerebrosidase or Beta-D-glucosyl-N-acylsphingosine glucohydrolase E.C. 3.2.1.45. 497 residue protein with N-linked carbohydrates, MW=59.3 kD. Alglucerase is prepared by modification of the oligosaccharide chains of human Beta-glucocerebrosidase. The modification alters the sugar residues at the non-reducing ends of the oligosaccharide chains of the glycoprotein so that they are predominantly terminated with mannose residues",
+      "indication": "For the treatment of Gaucher's disease (deficiency in glucocerebrosidase)",
+      "name": "Imiglucerase"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00051",
+      "description": "Adalimumab is a human monoclonal antibody against TNF-alpha. It is produced by recombinant DNA technology using a mammalian cell expression system. It consists of 1330 amino acids and has a molecular weight of approximately 148 kilodaltons.",
+      "indication": "For treatment of rheumatoid arthritis, psoriatic arthritis, ankylosing spondylitis, and Crohn's disease.",
+      "name": "Adalimumab"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00052",
+      "description": "Recombinant human growth hormone (somatotropin) 191 residues, MW 22.1 kD, synthesized in E. coli",
+      "indication": "For treatment of dwarfism, acromegaly and prevention of HIV-induced weight loss",
+      "name": "Somatropin recombinant"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00054",
+      "description": "Abciximab is a Fab fragment of the chimeric human-murine monoclonal antibody 7E3. Abciximab binds to the glycoprotein (GP) IIb/IIIa receptor of human platelets and inhibits platelet aggregation by preventing the binding of fibrinogen, von Willebrand factor, and other adhesive molecules. It also binds to vitronectin (αvβ3) receptor found on platelets and vessel wall endothelial and smooth muscle cells.",
+      "indication": "Abciximab is indicated as an adjunct to percutaneous coronary intervention for the prevention of cardiac ischemic complications in patients undergoing percutaneous coronary intervention and in patients with unstable angina not responding to conventional medical therapy when percutaneous coronary intervention is planned within 24 hours. Abciximab is intended for use with aspirin and heparin and has been studied only in that setting.",
+      "name": "Abciximab"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00057",
+      "description": "Tumor associated glycoprotein (TAG) 72 (B72.3) monoclonal antibody conjugated with Indium 111 for radioimaging colon tumors. Satumomab Pendetide (trade name: OncoScint®) is no longer commercially available.",
+      "indication": "For diagnosis of extrahepatic malignant cancers",
+      "name": "Satumomab Pendetide"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00056",
+      "description": "Recombinant humanized IgG4, kappa antibody conjugated with a cytotoxic antitumor antibiotic, calicheamicin, isolated from fermentation of a bacterium, Micromonospora echinospora ssp. calichensis. The antibody portion of Mylotarg binds specifically to the CD33 antigen, The anti-CD33 hP67.6 antibody is produced by mammalian cell suspension culture using a myeloma NS0 cell line. Gemtuzumab ozogamicin (trade name Mylotarg) was withdrawn in 2010 when a clinical trial showed the drug increased patient death and exhibited no advantages over traditional cancer therapies.",
+      "indication": "For treatment of CD33-positive acute myeloid leukemia in patients 60 and over who are not candidates for other chemotherapy.",
+      "name": "Gemtuzumab ozogamicin"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00058",
+      "description": "Human alpha-1 proteinase inhibitor or alpha-1-antitrypsin, prepared from human plasma via Cohn alcohol fractionation followed by PEG and zinc chloride fractionation.",
+      "indication": "For chronic augmentation and maintenance therapy in individuals with alpha1-proteinase inhibitor (A1-PI) deficiency and clinical evidence of emphysema.",
+      "name": "Alpha-1-proteinase inhibitor"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00055",
+      "description": "Drotrecogin alfa is activated human protein C that is synthesized by recombinant DNA technology. It is a glycoprotein of approximately 55 kilodalton molecular weight, consisting of a heavy chain and a light chain linked by a disulfide bond. Drotrecogin alfa was withdrawn from the market after a major study indicated that it was not effective in improving outcomes in patients with sepsis.",
+      "indication": "For reduction of mortality in patients with severe sepsis.",
+      "name": "Drotrecogin alfa"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00059",
+      "description": "Pegylated L-asparagine amidohydrolase from E. coli. Pegylation substantially (by a factor of 4) extends the protein half life.",
+      "indication": "For treatment of acute lymphoblastic leukemia",
+      "name": "Pegaspargase"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00060",
+      "description": "Human interferon beta (166 residues), glycosylated, MW=22.5kD. It is produced by mammalian cells (Chinese Hamster Ovary cells) into which the human interferon beta gene has been introduced. The amino acid sequence is identical to that of natural human interferon beta.",
+      "indication": "For treatment of relapsing/remitting multiple sclerosis, also for condyloma acuminatum",
+      "name": "Interferon beta-1a"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00061",
+      "description": "Bovine adenosine deaminase derived from bovine intestine that has been extensively pegylated for extended serum half life.",
+      "indication": "For treatment of adenosine deaminase deficiency",
+      "name": "Pegademase bovine"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00063",
+      "description": "Synthetic cyclic hexapeptide that binds to platelet receptor glycoprotein and inhibits platelet aggregation.",
+      "indication": "For treatment of myocardial infarction and acute coronary syndrome.",
+      "name": "Eptifibatide"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00062",
+      "description": "Human serum albumin isolated from expired blood plasma",
+      "indication": "For treatment of severe blood loss, hypervolemia, hypoproteinemia",
+      "name": "Human Serum Albumin"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00064",
+      "description": "A diagnostic radiopharmaceutical containing iodinated I 131 albumin for intravenous imaging. Following intravenous injection, radioiodinated albumin human is uniformly distributed throughout the intravascular pool within 10 minutes; extravascular distribution takes place more slowly (2 days). Indicated for use in determinations of total blood and plasma volumes, cardiac output, cardiac and pulmonary blood volumes and circulation times",
+      "indication": "For determination of total blood and plasma volumes",
+      "name": "Serum albumin iodonated"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00065",
+      "description": "Tumor necrosis factor (TNF-alpha) binding antibody (chimeric IgG1). It is composed of human constant and murine variable regions. Infliximab is produced by a recombinant cell line cultured by continuous perfusion",
+      "indication": "To manage the signs and symptoms, as well as to induce and maintain clinical remission in adults with moderate to severe active Crohn's disease or ulcerative colitis. Also used to manage signs and symptoms of rheumatoid arthritis (in conjunction with methotrexate), ankylosing spondylitis, psoriatic arthritis, and juvenile arthritis.",
+      "name": "Infliximab"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00066",
+      "description": "Follitropin beta is a human follicle stimulating hormone (FSH) preparation of recombinant DNA origin, which consists of two non-covalently linked, non-identical glycoproteins designated as the alpha- and beta- subunits. The alpha- and beta- subunits have 92 and 111 amino acids. The alpha subunit is glycosylated at Asn 51 and Asn 78 while the beta subunit is glycosylated at Asn 7 and Asn 24. Follitropin beta is produced in genetically engineered Chinese hamster cell lines (CHO). The nomenclature “beta” differentiates it from another recombinant human FSH product that was marketed earlier as follitropin alpha. Follitropin is important in the development of follicles produced by the ovaries. Given by subcutaneous injection, it is used in combination with human chorionic gonadotropin (hCG) to assist in ovulation and fertility. Follitropin may also be used to cause the ovary to produce several follicles, which can then be harvested for use in gamete intrafallopian transfer (GIFT) or in vitro fertilization (IVF). Numerous physio-chemical tests and bioassays indicate that follitropin beta and follitropin alpha are indistinguishable. However, a more recent study showed there is may be a slight clinical difference, with the alpha form tending towards a higher pregnancy rate and the beta form tending towards a lower pregnancy rate, but with significantly higher estradiol (E2) levels. Structural analysis shows that the amino acid sequence of follitropin beta is identical to that of natural human follicle stimulating hormone (FSH). Further, the ogliosaccharide side chains are very similar, but not completely identical to that of natural FSH. However, these small differences do not affect the bioactivity compared to natural FSH.",
+      "indication": "For treatment of female infertility",
+      "name": "Follitropin beta"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00068",
+      "description": "Human interferon beta (165 residues), cysteine 17 is substituted with serine. Produced in E. coli, no carbohydrates, MW=18.5kD",
+      "indication": "Interferon beta-1b is a drug used for the treatment of relapsing/remitting multiple sclerosis. It has been shown to slow the advance of the disease as well as to decrease the frequency of attacks.",
+      "name": "Interferon beta-1b"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00069",
+      "description": "Interferon alfacon-1 is a recombinant non-naturally occurring type-I interferon. The 166-amino acid sequence of Interferon alfacon-1 was derived by scanning the sequences of several natural interferon alpha subtypes and assigning the most frequently observed amino acid in each corresponding position. Four additional amino acid changes were made to facilitate the molecular construction, and a corresponding synthetic DNA sequence was constructed using chemical synthesis methodology. Interferon alfacon-1 differs from interferon alfa-2b at 20/166 amino acids (88% homology), and comparison with interferon-beta shows identity at over 30% of the amino acid positions. Interferon alfacon-1 is produced in Escherichia coli (E. coli) cells that have been genetically altered by insertion of a synthetically constructed sequence that codes for Interferon alfacon-1. Prior to final purification, Interferon alfacon-1 is allowed to oxidize to its native state, and its final purity is achieved by sequential passage over a series of chromatography columns. This protein has a molecular weight of 19,434 daltons.",
+      "indication": "For the treatment of hairy cell leukemia, malignant melanoma, and AIDS-related Kaposi's sarcoma",
+      "name": "Interferon alfacon-1"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00067",
+      "description": "Antidiuretic hormone, also known as vasopressin, is a nine amino acid peptide secreted from the posterior pituitary. Antidiuretic hormone binds to receptors in the distal or collecting tubules of the kidney and promotes reabsorbtion of water back into the circulation",
+      "indication": "For the treatment of enuresis, polyuria, diabetes insipidus, polydipsia and oesophageal varices with bleeding",
+      "name": "Vasopressin"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00071",
+      "description": "Insulin isolated from pig pancreas. Composed of alpha and beta chains, processed from pro-insulin. Forms a hexameric structure.",
+      "indication": "For the treatment of type I and II diabetes mellitus.",
+      "name": "Insulin Pork"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00070",
+      "description": "Highly purified sheep hyaluronidase for administration by injection into the vitreous of the eye.",
+      "indication": "For increase of absorption and distribution of other injected drugs and for rehydration.",
+      "name": "Hyaluronidase"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00075",
+      "description": "Murine monoclonal antibody specific to CD3 T-cell lymphocyte antigens. More specifically it is a purified murine (mouse) monoclonal antibody, directed against the CD3 (T3) receptor on the surface of human T-cells (T-lymphocytes) cultured using the murine ascites method. Muromonab is 93% monomeric immune globulin G type 2a (IgG2a).",
+      "indication": "For treatment of organ transplant recipients, prevention of organ rejection",
+      "name": "Muromonab"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00073",
+      "description": "Rituxan is a genetically engineered chimeric murine/human monoclonal antibody directed against the CD20 antigen found on the surface of normal and malignant B lymphocytes. The antibody is an IgG1 kappa immunoglobulin containing murine light- and heavy-chain variable region sequences and human constant region sequences. Rituximab is composed of two heavy chains of 451 amino acids and two light chains of 213 amino acids",
+      "indication": "For treatment of CD20-positive non-Hodgkins lymphoma, chronic lymphocytic leukemia, and rheumatoid arthritis.",
+      "name": "Rituximab"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00076",
+      "description": "Digoxin Immune Fab is a sheep antibody (26-10) FAB fragment from sheep immunized with the digoxin derivative Digoxindicarboxymethylamine. It is used as an antidote for overdose of digoxin.",
+      "indication": "For treatment of digitoxin overdose or digitalis glycoside toxicity.",
+      "name": "Digoxin Immune Fab (Ovine)"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00072",
+      "description": "A recombinant IgG1 kappa, humanized monoclonal antibody that selectively binds with high affinity in a cell-based assay (Kd = 5 nM) to the extracellular domain of the human epidermal growth factor receptor protein. Produced in CHO cell culture.",
+      "indication": "For treatment of early stage HER2-positive breast cancer, or metastatic breast cancer that substantially overexpress HER2.",
+      "name": "Trastuzumab"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00074",
+      "description": "A recombinant chimeric (murine/human) monoclonal antibody (IgG1k) that functions as an immunosuppressive agent, specifically binding to and blocking the interleukin-2 receptor a-chain (IL-2R alpha, also known as CD25 antigen) on the surface of activated T-lymphocytes. It is a 144 kDa glycoprotein obtained from fermentation of an established mouse myeloma cell line genetically engineered to express plasmids containing the human heavy and light chain constant region genes and mouse heavy and light chain variable region genes encoding the RFT5 antibody that binds selectively to the IL-2R alpha.",
+      "indication": "For prophylactic treatment of kidney transplant rejection",
+      "name": "Basiliximab"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00080",
+      "description": "Daptomycin is a lipopeptide antibiotic that kills susceptible gram positive bacteria by disrupting their membrane potential. It is a naturally-occurring compound found in the soil bacterium <i>Streptomyces roseosporus</i>. Antibiotics are used in the treatment of infections caused by bacteria. They work by killing bacteria or preventing their growth. Daptomycin will not work for colds, flu, or other virus infections. It was approved in September 2003 for the treatment of complicated skin and soft tissue infections. It has a safety profile similar to other agents commonly administered to treat gram-positive infections.",
+      "indication": "For the treatment of complicated skin and skin structure infections caused by susceptible strains of Gram-positive microorganisms.",
+      "name": "Daptomycin"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00078",
+      "description": "Indium or yttrium conjugated murine IgG1 kappa monoclonal antibody directed against the CD20 antigen, which is found on the surface of normal and malignant B lymphocytes. Ibritumomab is produced in Chinese hamster ovary cells and is composed of two murine gamma 1 heavy chains of 445 amino acids each and two kappa light chains of 213 amino acids each.",
+      "indication": "For treatment of non-Hodgkin's lymphoma",
+      "name": "Ibritumomab tiuxetan"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00081",
+      "description": "Murine IgG2a lambda monoclonal antibody against CD20 antigen (2 heavy chains of 451 residues, 2 lambda chains of 220 residues). It is produced in an antibiotic-free culture of mammalian cells. It can be covalently linked to Iodine 131 (a radioactive isotope of iodine).",
+      "indication": "For treatment of non-Hodgkin's lymphoma (CD20 positive, follicular)",
+      "name": "Tositumomab"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00083",
+      "description": "Purified botulinum toxin from Clostridium botulinum, purified from culture via dialysis and acid precipitation.",
+      "indication": "For the treatment of cervical dystonia in adults to decrease the severity of abnormal head position and neck pain associated with cervical dystonia. Also for the treatment of severe primary axillary hyperhidrosis that is inadequately managed with topical agents and for the treatment of strabismus and blepharospasm associated with dystonia, including benign essential blepharospasm or VII nerve disorders in patients 12 years of age and above. Also used cosmetically to temporarily improve the appearance of moderate-to-severe frown lines between the eyebrows (glabellar lines) as well as for the treatment of excessive underarm sweating.",
+      "name": "Botulinum Toxin Type A"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00085",
+      "description": "Pancrelipase is an enzyme mixture isolated from porcine or bovine pancreas, sometimes called pancreatin. It contains 3 enzymes: amylase, lipase, and a protease (chymotrypsin). Pancrelipase is marketed under several brand names such as Ultresa™ and Viokace™.",
+      "indication": "For treatment of exocrine pancreatic insufficiency in cystic fibrosis (Ultresa™), chronic pancreatitis (Viokace™ in combination with a proton pump inhibitor), and pancreatectomy (Viokace™ in combination with a proton pump inhibitor).",
+      "name": "Pancrelipase"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00082",
+      "description": "Pegvisomant is a highly selective growth hormone (GH) receptor antagonist. It is used to treat acromegaly. Unlike dopamine or somatostatin analogs (which inhibit growth hormone secretion), this drug actually blocks the hepatic (GH-mediated) production of insulin like growth factor (IGF-1), which is the main mediator of growth hormone activity.",
+      "indication": "Pegvisomant is a growth hormone receptor antagonist used for the treatment of acromegaly.",
+      "name": "Pegvisomant"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00086",
+      "description": "Streptokinase, is a sterile, purified preparation of a bacterial protein elaborated by group C (beta) -hemolytic streptococci.",
+      "indication": "For the treatment of acute evolving transmural myocardial infarction, pulmonary embolism, deep vein thrombosis, arterial thrombosis or emolism and occlusion of arteriovenous cannulae",
+      "name": "Streptokinase"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00088",
+      "description": "Human Beta-glucocerebrosidase or Beta-D-glucosyl-N-acylsphingosine glucohydrolase E.C. 3.2.1.45. 497 residue protein with N-linked carbohydrates, MW=59.3 kD. Alglucerase is prepared by modification of the oligosaccharide chains of human Beta-glucocerebrosidase. The modification alters the sugar residues at the non-reducing ends of the oligosaccharide chains of the glycoprotein so that they are predominantly terminated with mannose residues",
+      "indication": "For the treatment of Gaucher's disease (deficiency in glucocerebrosidase)",
+      "name": "Alglucerase"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00087",
+      "description": "Humanized monoclonal antibody specific to lymphocyte antigens. It is a recombinant DNA-derived humanized monoclonal antibody (Campath-1H) that is directed against the 21-28 kD cell surface glycoprotein,CD52. The Campath-1H antibody is an IgG1 kappa with human variable framework and constant regions, and complementarity-determining regions from a murine (rat) monoclonal antibody (Campath-1G). Campath is produced in mammalian cell (Chinese hamster ovary) suspension culture in a medium containing neomycin.",
+      "indication": "Alemtuzumab (Campath) is a monoclonal antibody therapy used for treatment of B-cell chronic lymphocytic leukemia.",
+      "name": "Alemtuzumab"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00089",
+      "description": "Capromab is a Murine IgG1 monoclonal 7E11-C5.3 antibody that recognizes prostate specific membrane antigen (PSMA – also known as glutamate carboxypeptidase 2) from prostate cancer cells and normal prostate tissue. It is linked to pendetide, a derivative of DTPA. Pendetide acts as a chelating agent for the radionuclide indium-111. Capromab is used to image the extent of prostate cancer.",
+      "indication": "For diagnosis of prostate cancer and detection of intra-pelvic metastases.",
+      "name": "Capromab"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00090",
+      "description": "Human recombinant alpha-L-iduronidase, 628 residues (mature form), produced by recombinant DNAtechnology in a Chinese hamster ovary cell line. Laronidase is a glycoprotein with a molecular weight of approximately 83 kD. The predicted amino acid sequence of the recombinant form, as well as the nucleotide sequence that encodes it, are identical to a polymorphic form of human a-L-iduronidase. It contains 6 N-linked oligosaccharide modification sites.",
+      "indication": "For the treatment of mucopolysaccharidosis",
+      "name": "Laronidase"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00093",
+      "description": "A synthetic nonapeptide comprising cysteinyl, phenylalanyl, phenylalanyl, glutaminyl, asparaginyl, cysteinyl, prolyl, lysyl, and glycinamide residues in sequence, with a disulfide bridge joining the two cysteine residues. Its antidiuretic effects are less than those of vasopressin. It is used as a vasoconstrictor in local anaesthetic injections for dental use, and is an ingredient of preparations that have been used for treatment of pain and inflammation of the mouth. [ChEBI]",
+      "indication": "For use as an alternative to adrenaline as a localising agent, provided that local ischaemia is not essential.",
+      "name": "Felypressin"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00092",
+      "description": "Immunosuppressive dimeric fusion protein that consists of the extracellular CD2-binding portion of the human leukocyte function antigen-3 (LFA-3) linked to the Fc (hinge, CH2 and CH3 domains) portion of human IgG1. Produced by CHO cells, mW is 91.4 kD.",
+      "indication": "As an immunosuppressive drug, Alefacept can be used for treatment of moderate to severe chronic plaque psoriasis",
+      "name": "Alefacept"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00094",
+      "description": "Urofollitropin is a purified form of follicle-stimulating hormone (FSH) that is manufactured by extraction from human urine and then purified. It consists of two non-covalently linked, non-identical glycoproteins designated as the alpha- and beta- subunits. The alpha- and beta- subunits have 92 and 111 amino acids. The alpha subunit is glycosylated at Asn 51 and Asn 78 while the beta subunit is glycosylated at Asn 7 and Asn 24. Urofollitropin is important in the development of follicles produced by the ovaries. Given by subcutaneous injection, it is used in combination with human chorionic gonadotropin (hCG) to assist in ovulation and fertility. Urofollitropin may also be used to cause the ovary to produce several follicles, which can then be harvested for use in gamete intrafallopian transfer (GIFT) or in vitro fertilization (IVF).",
+      "indication": "For treatment of female infertility",
+      "name": "Urofollitropin"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00096",
+      "description": "A sterile non-pyrogenic suspension of microspheres of human serum albumin with perflutren (a highly fluorinated small molecule) for contrast enhancement during indicated ultrasound imaging procedures.",
+      "indication": "For treatment of severe blood loss, hypervolemia, hypoproteinemia.",
+      "name": "Serum albumin"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00095",
+      "description": "Humanized IgG1 kappa isotype monoclonal antibody that binds to human CD11a. Efalizumab has a molecular weight of approximately 150 kilodaltons and is produced in a Chinese hamster ovary mammalian cell expression system in a nutrient medium containing the antibiotic gentamicin.",
+      "indication": "For the treatment of adult patients with moderate to severe chronic plaque psoriasis, who are candidates for phototherapy or systemic therapy.",
+      "name": "Efalizumab"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00097",
+      "description": "Recombinant human chorionic gonadotropin with 2 subunits, alpha = 92 residues, beta = 145 residues, each with N-and O-linked carbohydrate moieties linked to ASN-52 and ASN-78 (on alpha subunit) and ASN-13, ASN-30, SER-121, SER-127, SER-132 and SER-138 (on beta subunit). The primary structure of the alpha-chain of r-hCG is identical to that of the alpha-chain of hCG, FSH and LH.",
+      "indication": "For the treatment of female infertility",
+      "name": "Chorionic Gonadotropin (Recombinant)"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00091",
+      "description": "A cyclic undecapeptide from an extract of soil fungi. It is a powerful immunosupressant with a specific action on T-lymphocytes. It is used for the prophylaxis of graft rejection in organ and tissue transplantation. Cyclosporine is produced as a metabolite by the fungus species Cordyceps militaris. (From Martindale, The Extra Pharmacopoeia, 30th ed).",
+      "indication": "For treatment of transplant (kidney, liver, and heart) rejection, rheumatoid arthritis, severe psoriasis.",
+      "name": "Cyclosporine"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00098",
+      "description": "Rabbit anti-thymocyte globulin. Thymoglobulin is a polyclonal antibody that suppresses certain types of immune cells responsible for acute organ rejection in transplant patients. Thymoglobulin is a mixture of antibodies intended to bind to various cell surface antigens. The most common mode of action of Thymoglobulin is via selective depletion of T-cells.",
+      "indication": "For prevention of renal transplant rejection",
+      "name": "Anti-thymocyte Globulin (Rabbit)"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00099",
+      "description": "Filgrastim is a recombinant, non-pegylated human granulocyte colony stimulating factor (G-CSF) analogue manufactured by recombinant DNA technology using a strain of E. coli. It is marketed as the brand name Neupogen by Amgen. Chemically, it consists of 175 amino acid residues. The protein has an amino acid sequence that is identical to the natural sequence predicted from human DNA sequence analysis, except for the addition of an N-terminal methionine necessary for expression in E coli. Tbo-filgrastim, which is marketed by Sicor Biotech and FDA approved on August 29, 2012, contains the same active ingredient as Neupogen and is biologically similar, but it is formulated to be short-acting. On March 6, 2015, the FDA approved the biosimilar Zarxio (filgrastim-sndz) and is indicated for use in the same conditions as Neupogen. Zarxio is marketed by Sandoz.",
+      "indication": "Filgrastim is used in patients with acute myeloid leukemia receiving induction or consolidation chemotherapy. It is also used in cancer patients receiving bone marrow transplant. In general, filgrastim increases neutrophil counts in order to decrease the risk of infection or duration of neutropenia in the aforementioned patient populations. Infection and neutropenia are adverse events associated with chemotherapy. Furthermore, filgrastim is also indicated for patients with severe chronic neutropenia. It mobilizes hematopoietic progenitor cells into the peripheral blood for collection by leukapheresis to allow for a more rapid engraftment. Tbo-filgrastim has a narrower indication profile than Neupogen - it is a leukocyte growth factor indicated for the reduction in the duration of severe neutropenia in patients with non-myeloid malignancies.",
+      "name": "Filgrastim"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00100",
+      "description": "Recombinant Coagulation Factor IX is a purified Factor IX glycoprotein produced by recombinant DNA technology. It has a primary amino acid sequence that is identical to the Ala148 allelic form of human factor IX, and has structural and functional characteristics similar to those of endogenous factor IX. It is not derived from human blood (unlike human Factor IX complex), and is instead produced by a genetically engineered Chinese hamster ovary (CHO) cell line that secretes recombinant Factor IX into cell medium that is then processed and purified for use as a pharmaceutical agent. Recombinant Factor IX is indicated for the control and prevention of bleeding episodes in adult and pediatric patients with congenital factor IX deficiency (Hemophilia B).",
+      "indication": "For treatment of hemophilia (Christmas disease).",
+      "name": "Coagulation Factor IX (Recombinant)"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00103",
+      "description": "Recombinant human alpha-galactosidase A. The mature protein is composed of 2 subunits of 398 residues. Protein is glycosylated and produced by CHO cells",
+      "indication": "For treatment of Fabry's disease (alpha-galactosidase A deficiency)",
+      "name": "Agalsidase beta"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00102",
+      "description": "Becaplermin is produced by recombinant DNA technology by insertion of the gene for the B chain of platelet derived growth factor (PDGF) into the yeast, Saccharomyces cerevisiae. Becaplermin has a molecular weight of approximately 25 KD and is a homodimer composed of two identical polypeptide chains that are bound together by disulfide bonds.",
+      "indication": "For topical treatment of skin ulcers (from diabetes)",
+      "name": "Becaplermin"
+    }
+  },
+  {
+    "group": "nodes",
+    "data": {
+      "id": "DB00104",
+      "description": "Octreotide is the acetate salt of a cyclic octapeptide. It is a long-acting octapeptide with pharmacologic properties mimicking those of the natural hormone somatostatin.",
+      "indication": "For treatment of acromegaly and reduction of side effects from cancer chemotherapy",
+      "name": "Octreotide"
+    }
+  }
+]
