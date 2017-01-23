@@ -10,6 +10,7 @@
   },
   "author": "Joseph Stahl",
   "license": "MIT",
+  "repository": "github:josephst/drug-interactions",
   "dependencies": {
     "axios": "^0.15.3",
     "cytoscape": "^2.7.13",
@@ -20,6 +21,8 @@
     "@types/axios": "^0.9.34",
     "@types/graceful-fs": "^2.0.29",
     "@types/node": "^6.0.54",
+    "@types/webpack": "^2.2.3",
+    "@types/webpack-dev-server": "^1.12.6",
     "@types/xml2js": "0.0.32",
     "babel-core": "^6.21.0",
     "babel-loader": "^6.2.10",
