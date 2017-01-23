@@ -2,9 +2,12 @@
 
 import * as axios from 'axios';
 import cytoscape from 'cytoscape';
-import css from './css/main.css';
+/* eslint-disable no-unused-vars */
+import bootstrap from '../node_modules/bootstrap/dist/css/bootstrap.css';
+import customStyles from './css/main.css';
+/* eslint-enable no-unused-vars */
 
-const graph = cytoscape({
+const graph = window.cy = cytoscape({
   container: document.getElementById('cy'),
 });
 
