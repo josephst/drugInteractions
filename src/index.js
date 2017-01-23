@@ -3,8 +3,12 @@
 import * as axios from 'axios';
 import cytoscape from 'cytoscape';
 /* eslint-disable no-unused-vars */
-import bootstrap from '../node_modules/bootstrap/dist/css/bootstrap.css';
-import customStyles from './css/main.css';
+// Bootstrap CSS
+import bootstrapCSS from '../node_modules/bootstrap/dist/css/bootstrap.css';
+import customCSS from './css/main.css';
+// Bootstrap JS
+import bscollapse from '../node_modules/bootstrap/js/collapse';
+import bstransition from '../node_modules/bootstrap/js/transition';
 /* eslint-enable no-unused-vars */
 
 const graph = window.cy = cytoscape({
@@ -25,3 +29,11 @@ axios.get('/data/nodes-small.json')
       });
   })
   .catch(err => console.log(err));
+
+function searchListener(e) {
+  e.preventDefault();
+  const searchText = e.target.value;
+  console.log(searchText);
+}
+const searchBox = document.getElementById('drugSearchText');
+searchBox.addEventListener('keyup', searchListener);

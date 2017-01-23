@@ -1,5 +1,6 @@
 const path = require('path');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const Webpack = require('webpack');
 
 module.exports = {
   entry: './src/index.js',
@@ -58,5 +59,9 @@ module.exports = {
 
   plugins: [
     new ExtractTextPlugin({ filename: 'bundle.css', disable: false, allChunks: true }),
+    new Webpack.ProvidePlugin({
+      $: 'jquery',
+      jQuery: 'jquery',
+    }),
   ],
 };
