@@ -2,9 +2,9 @@
   "name": "drug-interactions",
   "version": "0.0.1",
   "description": "Drug Interaction graph with Cytoscape.js and React",
-  "main": "dist/bundle.js",
+  "main": "./devServer.js",
   "scripts": {
-    "start": "webpack-dev-server --debug --inline",
+    "start": "node devServer.js",
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,16 +15,14 @@
     "axios": "^0.15.3",
     "bootstrap": "^3.3.7",
     "cytoscape": "^2.7.13",
-    "graceful-fs": "^4.1.11",
-    "jquery": "^3.1.1"
+    "jquery": "^3.1.1",
+    "lodash.debounce": "^4.0.8"
   },
   "devDependencies": {
     "@types/axios": "^0.9.34",
-    "@types/graceful-fs": "^2.0.29",
     "@types/node": "^6.0.54",
     "@types/webpack": "^2.2.3",
     "@types/webpack-dev-server": "^1.12.6",
-    "@types/xml2js": "0.0.32",
     "babel-core": "^6.21.0",
     "babel-loader": "^6.2.10",
     "babel-preset-es2015": "^6.18.0",
@@ -38,7 +36,7 @@
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
     "webpack": "^2.2.0",
-    "webpack-dev-server": "^1.16.2",
-    "xml2js": "^0.4.17"
+    "webpack-bundle-analyzer": "^2.3.0",
+    "webpack-dev-server": "^1.16.2"
   }
 }

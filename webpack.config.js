@@ -1,17 +1,22 @@
 const path = require('path');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const Webpack = require('webpack');
+// const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 module.exports = {
-  entry: './src/index.js',
+  context: path.resolve(__dirname, 'src'),
+  entry: {
+    main: './index.js',
+    vendor: ['cytoscape', 'jquery'],
+  },
   output: {
-    filename: 'bundle.js',
+    filename: '[name].js',
     path: path.join(__dirname, 'public', 'dist'),
     publicPath: '/dist/',
   },
 
   // Enable sourcemaps for debugging webpack's output.
-  devtool: 'cheap-module-eval-source-map',
+  devtool: 'source-map',
 
   resolve: {
     extensions: ['.webpack.js', '.web.js', '.js'],
@@ -30,13 +35,17 @@ module.exports = {
       {
         test: /\.css$/,
         loader: ExtractTextPlugin.extract({
-          loader: 'css-loader',
-          fallbackLoader: 'style-loader',
+          use: 'css-loader',
+          fallback: 'style-loader',
         }),
       },
       {
         test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
-        loader: 'url-loader?limit=10000&mimetype=application/font-woff',
+        loader: 'url-loader',
+        options: {
+          limit: 10000,
+          mimetype: 'application/font-woff',
+        },
       },
       {
         test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
@@ -58,10 +67,24 @@ module.exports = {
   },
 
   plugins: [
-    new ExtractTextPlugin({ filename: 'bundle.css', disable: false, allChunks: true }),
+    // new BundleAnalyzerPlugin(),
+    new ExtractTextPlugin({
+      filename: '[name].css',
+      disable: false,
+      allChunks: true,
+    }),
+    new Webpack.optimize.CommonsChunkPlugin({
+      name: 'vendor',
+      minChunks: module =>
+        module.context && module.context.indexOf('node_modules') !== -1,
+    }),
     new Webpack.ProvidePlugin({
       $: 'jquery',
       jQuery: 'jquery',
+    }),
+    new Webpack.optimize.CommonsChunkPlugin({
+      name: 'manifest',
+      minChunks: Infinity,
     }),
   ],
 };

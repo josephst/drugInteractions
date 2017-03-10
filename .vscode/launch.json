@@ -5,26 +5,25 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "type": "node2",
-      "request": "launch",
-      "name": "Webpack Dev Server",
-      "program": "${workspaceRoot}/devServer.js",
-      "cwd": "${workspaceRoot}"
-    },
-    {
       "type": "chrome",
       "request": "launch",
       "name": "Launch Chrome",
-      "sourceMaps": true,
-      "userDataDir": "${workspaceRoot}/.vscode/chrome",
-      "url": "http://localhost:8080/",
-      "webRoot": "${workspaceRoot}\\src"
-    }
-  ],
-  "compounds": [
+      "url": "http://localhost:8080",
+      "webRoot": "${workspaceRoot}/src",
+      "userDataDir": "${workspaceRoot}/.vscode/chrome"
+    },
     {
-      "name": "Launch devServer and Chrome",
-      "configurations": ["Webpack Dev Server", "Launch Chrome"]
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Webpack DevServer",
+      "program": "${workspaceRoot}\\devServer.js"
+    },
+    {
+      "type": "node",
+      "request": "attach",
+      "name": "Attach to Process",
+      "address": "localhost",
+      "port": 5858
     }
   ]
 }
