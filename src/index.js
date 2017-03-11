@@ -6,11 +6,18 @@ import '../node_modules/bootstrap/dist/css/bootstrap.css';
 // my CSS
 import './css/main.css';
 // Bootstrap JS
-import '../node_modules/bootstrap/js/collapse';
-import '../node_modules/bootstrap/js/transition';
+import '../node_modules/bootstrap/js/dropdown';
 
 const graph = cytoscape({
   container: document.getElementById('cy'),
+  style: [
+    {
+      selector: 'node',
+      style: {
+        label: 'data(name)',
+      },
+    },
+  ],
 });
 window.cy = graph;
 
@@ -39,7 +46,7 @@ function addNode(id, name, description) {
     group: 'nodes',
     data: {
       id,
-      label: name,
+      name,
       description,
     },
     position: {
@@ -107,8 +114,6 @@ async function addToGraph(drugId) {
   }
 }
 
-addToGraph('DB00001');
-
 graph.on('tap', 'node', (event) => {
   console.log(`clicked on ${event.cyTarget.id()}`);
   addToGraph(event.cyTarget.id());
@@ -126,7 +131,20 @@ function searchListener(e) {
   const searchText = e.target.value;
   console.log(searchText);
   // TODO: display search results in dropdown menu
+  // TODO: selecting a search result should trigger onSubmit function
 }
 const searchBox = document.getElementById('drugSearchText');
-const debouncedSearch = debounce(searchListener, 200);
+const debouncedSearch = debounce(searchListener, 500);
 searchBox.addEventListener('keydown', debouncedSearch);
+
+/**
+ * Submit the search results. Will also clear the existing graph.
+ * @param {Event} e Event triggered when submit button is clicked
+ */
+function onSubmit(e) {
+  // TODO: respond to the user input rather than always doing DB00001
+  e.preventDefault();
+  addToGraph('DB00001');
+}
+const submitButton = document.getElementById('drugSearchSubmit');
+submitButton.addEventListener('click', onSubmit);
