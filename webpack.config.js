@@ -7,6 +7,7 @@ module.exports = {
   context: path.resolve(__dirname, 'src'),
   entry: {
     main: './index.js',
+    about: './about.js',
     vendor: ['cytoscape', 'jquery'],
   },
   output: {
