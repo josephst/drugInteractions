@@ -1,6 +1,7 @@
 html, body {
   height: 100%;
   min-height: 100%;
+  overflow: hidden;
 }
 
 .fill {
@@ -13,4 +14,9 @@ html, body {
 
 .graph {
   height: 100%;
+}
+
+#info {
+  height: 100%;
+  overflow: auto;
 }

@@ -35,6 +35,7 @@ async function getData(drugId) {
   let drug;
   try {
     drug = await axios.get(`${apiPath}/id/${drugId}`);
+    document.getElementById('intro').classList.add('hidden');
   } catch (e) {
     // TODO: show error
   }
@@ -88,6 +89,8 @@ function addEdges(sourceId, interactions) {
         data: {
           source: sourceId,
           target: interaction.targetId,
+          targetName: interaction.targetName,
+          description: interaction.description,
           id: `${sourceId}-${interaction.targetId}`,
           label: interaction.description,
         },
@@ -118,18 +121,52 @@ async function addToGraph(drugId) {
       addEdges(drug.drugbankId, drug.interactions);
     }
     redoLayout();
+    graph.$(`#${drugId}`).select();
   } else {
     console.log('not found');
     // TODO: display error that node was not found
   }
 }
 
-graph.on('tap', 'node', (event) => {
-  console.log(`clicked on ${event.cyTarget.id()}`);
-  addToGraph(event.cyTarget.id());
-  // TODO: Get description (if not already existing) and interactions for clicked node.
-  // TODO: Populate info box with clicked drug's info
+function populateInfo(target) {
+  const infoPlaceholder = document.getElementById('infoPlaceholder');
+  const edgeInfo = document.getElementById('edgeInfo');
+  const nodeInfo = document.getElementById('nodeInfo');
+  infoPlaceholder.classList.remove('hidden');
+  if (target && target.isNode()) {
+    // Get info
+    const id = target.id();
+    const name = target.data('name');
+    const description = target.data('description');
+    const interactionEdges = target.outgoers('edge').map(edge =>
+      [edge.data('targetName'), edge.data('description')]);
+    const interactions = interactionEdges.map(pair =>
+      `<li>${pair[0]}<ul><li>${pair[1]}</li></ul></li>`);
+
+    // update HTML
+    document.getElementById('nodeId').textContent = id;
+    document.getElementById('nodeName').textContent = name;
+    document.getElementById('nodeDescription').textContent = description;
+    document.getElementById('nodeInteractions').innerHTML = `<ul>${interactions.join('')}</ul>`;
+
+    // hide all elements except node info
+    infoPlaceholder.classList.add('hidden');
+    edgeInfo.classList.add('hidden');
+    nodeInfo.classList.remove('hidden');
+  } else if (target && target.isEdge()) {
+    // TODO: write edge logic
+  }
+}
+
+graph.on('tap', 'node, edge', (event) => {
+  document.getElementById('infoPlaceholder').classList.remove('hidden');
+  const target = event.cyTarget;
+  if (target.isNode() && target.outgoers().length === 0) {
+    addToGraph(target.id());
+  }
+  populateInfo(target);
 });
+
 
 /**
  * Search for a new drug. A search will clear the existing graph.
