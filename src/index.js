@@ -30,7 +30,15 @@ const layoutOptions = {
 const apiPath = 'http://druginteractions.azurewebsites.net/apiV1/drugs';
 
 async function getData(drugId) {
-  const drug = await axios.get(`${apiPath}/id/${drugId}`);
+  const spinner = document.getElementById('loadingSpinner');
+  spinner.classList.remove('hidden');
+  let drug;
+  try {
+    drug = await axios.get(`${apiPath}/id/${drugId}`);
+  } catch (e) {
+    // TODO: show error
+  }
+  spinner.classList.add('hidden');
   return drug;
 }
 
@@ -101,7 +109,7 @@ function redoLayout() {
  */
 async function addToGraph(drugId) {
   const res = await getData(drugId);
-  if (res.status >= 200 && res.status < 300) {
+  if (res && res.status >= 200 && res.status < 300) {
     const drug = res.data;
     if (graph.getElementById(drug.drugbankId).length === 0) {
       addNode(drug.drugbankId, drug.name, drug.description);
