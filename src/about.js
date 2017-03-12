@@ -4,3 +4,4 @@ import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import './css/main.css';
 // Bootstrap JS
 import '../node_modules/bootstrap/js/dropdown';
+import '../node_modules/bootstrap/js/collapse';

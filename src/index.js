@@ -1,12 +1,14 @@
 import * as axios from 'axios';
 import cytoscape from 'cytoscape';
 import debounce from 'lodash.debounce';
-// Bootstrap CSS
-import '../node_modules/bootstrap/dist/css/bootstrap.css';
+// Bootstrap and Font Awesome
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/font-awesome/css/font-awesome.min.css';
 // my CSS
 import './css/main.css';
 // Bootstrap JS
 import '../node_modules/bootstrap/js/dropdown';
+import '../node_modules/bootstrap/js/collapse';
 
 const graph = cytoscape({
   container: document.getElementById('cy'),
