@@ -119,33 +119,39 @@ function redoLayout() {
  */
 async function addToGraph(drugId) {
   const res = await getData(drugId);
-  if (res && res.status >= 200 && res.status < 300) {
-    const drug = res.data;
-    if (graph.getElementById(drug.drugbankId).length === 0) {
-      addNode(drug.drugbankId, drug.name, drug.description);
+  return new Promise((resolve, reject) => {
+    if (res && res.status >= 200 && res.status < 300) {
+      const drug = res.data;
+      if (graph.getElementById(drug.drugbankId).length === 0) {
+        addNode(drug.drugbankId, drug.name, drug.description);
+      } else {
+        graph.$(`${drugId}`).data('description', res.data.description);
+      }
+
+      if (drug.interactions.length > 0) {
+        addEdges(drug.drugbankId, drug.interactions);
+      }
+
+      redoLayout();
+      graph.getElementById(`${drugId}`).select();
+      resolve();
+    } else {
+      reject('not found');
     }
-    if (drug.interactions.length > 0) {
-      addEdges(drug.drugbankId, drug.interactions);
-    }
-    redoLayout();
-    graph.$(`#${drugId}`).select();
-  } else {
-    console.log('not found');
-    // TODO: display error that node was not found
-  }
+  });
 }
 
-function populateInfo(target) {
+function populateInfo(element) {
   const infoPlaceholder = document.getElementById('infoPlaceholder');
   const edgeInfo = document.getElementById('edgeInfo');
   const nodeInfo = document.getElementById('nodeInfo');
   infoPlaceholder.classList.remove('hidden');
-  if (target && target.isNode()) {
+  if (element && element.isNode()) {
     // Get info
-    const id = target.id();
-    const name = target.data('name');
-    const description = target.data('description');
-    const interactionEdges = target.outgoers('edge').map(edge =>
+    const id = element.id();
+    const name = element.data('name');
+    const description = element.data('description');
+    const interactionEdges = element.outgoers('edge').map(edge =>
       [edge.data('targetName'), edge.data('description')]);
     const interactions = interactionEdges.map(pair =>
       `<li>${pair[0]}<ul><li>${pair[1]}</li></ul></li>`);
@@ -178,13 +184,25 @@ function populateInfo(target) {
   }
 }
 
-graph.on('tap', 'node, edge', (event) => {
-  document.getElementById('infoPlaceholder').classList.remove('hidden');
-  const target = event.cyTarget;
-  if (target.isNode() && target.outgoers().length === 0) {
-    addToGraph(target.id());
+graph.on('tap', 'node, edge', async (event) => {
+  graph.nodes().removeClass('highlight');
+  const element = event.cyTarget;
+  if (element.isNode() && element.outgoers().length === 0) {
+    try {
+      await addToGraph(element.id());
+      populateInfo(graph.getElementById(`${element.id()}`));
+    } catch (err) {
+      console.log(err);
+    }
+  } else {
+    // works for both nodes which already exist and for all edges (since edge source/ target will already exist)
+    if (element.isEdge()) {
+      // highlight source and target
+      element.source().addClass('highlight');
+      element.target().addClass('highlight');
+    }
+    populateInfo(element);
   }
-  populateInfo(target);
 });
 
 document.getElementById('clear').addEventListener('click', () => {
