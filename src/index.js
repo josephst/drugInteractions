@@ -31,6 +31,7 @@ window.cy = graph;
 
 const layoutOptions = {
   name: 'random',
+  boundingBox: { x1: 0, y1: 0, w: 1000, h: 1000 }
 };
 
 const apiPath = 'http://druginteractions.azurewebsites.net/apiV1/drugs';
