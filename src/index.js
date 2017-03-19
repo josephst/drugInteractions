@@ -19,6 +19,12 @@ const graph = cytoscape({
         label: 'data(name)',
       },
     },
+    {
+      selector: '.highlight',
+      style: {
+        'background-color': 'red',
+      }
+    },
   ],
 });
 window.cy = graph;
@@ -153,8 +159,21 @@ function populateInfo(target) {
     infoPlaceholder.classList.add('hidden');
     edgeInfo.classList.add('hidden');
     nodeInfo.classList.remove('hidden');
-  } else if (target && target.isEdge()) {
-    // TODO: write edge logic
+  } else if (element && element.isEdge()) {
+    // Get info
+    const description = element.data('description');
+    const source = element.source().data('name');
+    const target = element.target().data('name');
+
+    // update HTML
+    document.getElementById('edgeDescription').textContent = description;
+    document.getElementById('edgeSource').textContent = source;
+    document.getElementById('edgeTarget').textContent = target;
+
+    // hide other elements
+    infoPlaceholder.classList.add('hidden');
+    nodeInfo.classList.add('hidden');
+    edgeInfo.classList.remove('hidden');
   }
 }
 
