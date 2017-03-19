@@ -167,6 +167,10 @@ graph.on('tap', 'node, edge', (event) => {
   populateInfo(target);
 });
 
+document.getElementById('clear').addEventListener('click', () => {
+  graph.remove();
+});
+
 
 /**
  * Search for a new drug. A search will clear the existing graph.
